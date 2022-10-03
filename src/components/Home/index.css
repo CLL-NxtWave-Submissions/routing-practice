@@ -1,1 +1,18 @@
-/* Write your CSS code here */
+.home-content-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80%;
+}
+
+.home-content-image {
+  width: 40vw;
+  margin-bottom: 2rem;
+}
+
+.home-content-header {
+  color: #6d396b;
+  font-size: 3rem;
+  font-weight: 550;
+}

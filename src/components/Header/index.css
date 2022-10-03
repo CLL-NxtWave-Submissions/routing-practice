@@ -1,1 +1,44 @@
-/* Write your CSS code here */
+.header-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 20%;
+}
+
+.header-brand-container {
+  display: flex;
+  align-items: center;
+}
+
+.header-brand-image {
+  height: 3rem;
+  width: 3rem;
+  margin-right: 0.5rem;
+}
+
+.header-text {
+  color: #12022f;
+  font-size: 1.2rem;
+}
+
+.header-links-list {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.header-link {
+  margin-right: 1rem;
+}
+
+@media (min-width: 992px) {
+  .header-brand-image {
+    height: 6rem;
+    width: 6rem;
+  }
+
+  .header-text {
+    font-size: 1.5rem;
+  }
+}

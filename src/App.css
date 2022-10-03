@@ -11,4 +11,19 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* Write your CSS code here */
+.wave-bg-container {
+  border: 0.2rem solid #551e53;
+  border-radius: 0.8rem;
+  padding: 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  min-width: 450px;
+}
+
+@media (min-width: 992px) {
+  .wave-bg-container {
+    padding: 4rem 2rem;
+  }
+}
