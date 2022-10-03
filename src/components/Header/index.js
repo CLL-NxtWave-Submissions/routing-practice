@@ -14,15 +14,21 @@ const Header = () => (
 
     <ul className="header-links-list">
       <li className="header-link header-text">
-        <Link to="/">Home</Link>
+        <Link className="routing-link" to="/">
+          Home
+        </Link>
       </li>
 
       <li className="header-link header-text">
-        <Link to="/about">About</Link>
+        <Link className="routing-link" to="/about">
+          About
+        </Link>
       </li>
 
       <li className="header-link header-text">
-        <Link to="/contact">Contact</Link>
+        <Link className="routing-link" to="/contact">
+          Contact
+        </Link>
       </li>
     </ul>
   </nav>

@@ -20,6 +20,7 @@ body {
   justify-content: flex-start;
   align-items: center;
   min-width: 450px;
+  font-family: 'Roboto';
 }
 
 @media (min-width: 992px) {
