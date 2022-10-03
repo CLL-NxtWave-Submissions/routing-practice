@@ -12,6 +12,13 @@ body {
 }
 
 .wave-bg-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem;
+}
+
+.wave-content-container {
   border: 0.2rem solid #551e53;
   border-radius: 0.8rem;
   padding: 2rem 1rem;
@@ -21,10 +28,15 @@ body {
   align-items: center;
   min-width: 450px;
   font-family: 'Roboto';
+  width: 70%;
 }
 
 @media (min-width: 992px) {
   .wave-bg-container {
+    padding: 3rem 1rem;
+  }
+
+  .wave-content-container {
     padding: 4rem 2rem;
   }
 }
