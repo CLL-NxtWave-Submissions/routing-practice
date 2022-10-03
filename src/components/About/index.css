@@ -9,14 +9,15 @@
 
 .about-content-image {
   width: 10vw;
-  margin-bottom: 2rem;
+  margin-bottom: 0;
 }
 
 .about-content-header {
   color: #6d396b;
   font-size: 4rem;
   font-weight: 550;
-  margin-bottom: 3rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .about-content-description {
