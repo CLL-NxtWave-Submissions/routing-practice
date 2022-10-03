@@ -13,20 +13,20 @@ const Header = () => (
     </div>
 
     <ul className="header-links-list">
-      <li className="header-link header-text">
-        <Link className="routing-link" to="/">
+      <li className="header-link">
+        <Link className="routing-link header-text" to="/">
           Home
         </Link>
       </li>
 
-      <li className="header-link header-text">
-        <Link className="routing-link" to="/about">
+      <li className="header-link">
+        <Link className="routing-link header-text" to="/about">
           About
         </Link>
       </li>
 
-      <li className="header-link header-text">
-        <Link className="routing-link" to="/contact">
+      <li className="header-link">
+        <Link className="routing-link header-text" to="/contact">
           Contact
         </Link>
       </li>
