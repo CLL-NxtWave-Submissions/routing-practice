@@ -41,8 +41,8 @@
 
 @media (min-width: 992px) {
   .header-brand-image {
-    height: 2rem;
-    width: 2rem;
+    height: 1.5rem;
+    width: 1.5rem;
   }
 
   .header-text {
