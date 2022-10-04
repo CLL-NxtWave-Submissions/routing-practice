@@ -9,13 +9,13 @@
 }
 
 .about-content-image {
-  width: 14vw;
-  margin-bottom: 0;
+  width: 45vw;
+  margin-bottom: 1rem;
 }
 
 .about-content-header {
   color: #6d396b;
-  font-size: 4rem;
+  font-size: 3rem;
   font-weight: 550;
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -24,4 +24,17 @@
 .about-content-description {
   color: #555555;
   font-size: 1.5rem;
+  text-align: center;
+}
+
+@media (min-width: 992px) {
+  .about-content-image {
+    width: 14vw;
+    margin-bottom: 0;
+  }
+
+  .about-content-header {
+    font-size: 4rem;
+    margin-top: 1rem;
+  }
 }
