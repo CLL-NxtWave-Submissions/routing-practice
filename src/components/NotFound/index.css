@@ -9,13 +9,25 @@
 }
 
 .not-found-content-image {
-  width: 22vw;
+  width: 60vw;
   margin-bottom: 0;
 }
 
 .not-found-content-header {
   color: #6d396b;
-  font-size: 4rem;
+  font-size: 3rem;
   font-weight: 550;
   margin-top: 1rem;
+}
+
+@media (min-width: 992px) {
+  .not-found-content-image {
+    width: 14vw;
+    margin-bottom: 0;
+  }
+
+  .not-found-content-header {
+    font-size: 4rem;
+    margin-top: 1rem;
+  }
 }

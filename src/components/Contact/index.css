@@ -9,13 +9,25 @@
 }
 
 .contact-content-image {
-  width: 14vw;
-  margin-bottom: 0;
+  width: 45vw;
+  margin-bottom: 1rem;
 }
 
 .contact-content-header {
   color: #6d396b;
-  font-size: 4rem;
+  font-size: 3rem;
   font-weight: 550;
   margin-top: 1rem;
+}
+
+@media (min-width: 992px) {
+  .contact-content-image {
+    width: 14vw;
+    margin-bottom: 0;
+  }
+
+  .contact-content-header {
+    font-size: 4rem;
+    margin-top: 1rem;
+  }
 }
